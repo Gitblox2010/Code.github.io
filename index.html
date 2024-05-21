@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a mi página</title>
+    <title>Mi Blog Personal</title>
+    <link rel="stylesheet" href="estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Profesor Luis Soria">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
 </head>
-<body> style="color: grey;">
-    <h1>Bienvenidos...❤️</h1>
-    <a href="Separadores.html"
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo2.png" alt="Logo LAAS" width="20%">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Noticias</h1> <!-- Título "Noticias" -->
+    <main>
+        <section class="content">
+            <article>
+                <h2 style="color: #15015d;">Batalla del Nilo</h2>
+                <div class="content-wrapper">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Battle_of_the_Nile.jpg/450px-The_Battle_of_the_Nile.jpg" alt="La destrucción del L'Orient en la batalla del Nilo, óleo de George Arnald (1827)." id="n123">
+                    <p class="text">La batalla del Nilo —también conocida como la batalla de la bahía de Abukir (en inglés: Battle of the Nile, en francés: Bataille d’Aboukir, en árabe: معركة ابو قير البحريه)— fue un gran combate naval librado entre la Marina Real británica y la Marina de la Primera República Francesa del 1 al 3 de agosto de 1798 en la bahía de Abu Qir, en la costa mediterránea de Egipto.La batalla fue el punto culminante de la campaña naval que se había extendido a lo largo de todo el mar Mediterráneo durante los tres meses anteriores, cuando partió desde Tolón hacia Alejandría un convoy francés a bordo del cual iba una fuerza expedicionaria bajo el mando del entonces general Napoleón Bonaparte.</p>
+                    <a href="https://es.wikipedia.org/wiki/Batalla_del_Nilo" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Leer más</a>
+                </div>
+            </article>
+            <article>
+                <h2 style="color: #15015d;">Arquitectura de Barcelona</h2>
+                <div class="content-wrapper">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sagrada_Familia_8-12-21_%281%29.jpg/1280px-Sagrada_Familia_8-12-21_%281%29.jpg" alt="La destrucción del L'Orient en la batalla del Nilo, óleo de George Arnald (1827)." id="n123">
+                    <p class="text"> La arquitectura de Barcelona ha tenido una evolución paralela a la del resto de la arquitectura catalana y española, y ha seguido de forma diversa las múltiples tendencias que se han ido produciendo en el contexto de la historia del arte occidental. A lo largo de su historia, Barcelona ha acogido diversas culturas y civilizaciones, que han aportado su concepto del arte y han dejado su legado para la posteridad, desde los primeros pobladores íberos, pasando por los colonizadores romanos, los visigodos y un breve período islámico, hasta el surgimiento en la Edad Media del arte, la lengua y la cultura catalana, con una primera época de esplendor para el arte catalán, en que el románico y el gótico fueron períodos muy fructíferos para el desarrollo artístico de la región.</p>
+                    <a href="https://es.wikipedia.org/wiki/Arquitectura_de_Barcelona" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Leer más</a>
+                </div>
+            </article>
+            <!-- Otros artículos similares -->
+        </section>
+        <aside class="sidebar">
+            <h2 style="color: black;">Naveguemos por</h2>
+            <ul>
+                <li><a href="#">El imperio romano</a></li>
+                <li><a href="#">Programación</a></li>
+                <li><a href="#">Robotica</a></li>
+            </ul>
+        </aside>
+    </main>
 </body>
+<footer>
+    <div class="footer-section">
+        <h3>Contacto</h3>
+        <p>Lima - Perú</p>
+        <p>Teléfono: +123 456 789</p>
+        <p>Email: icbtcg@gmail.com</p>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+    </div>
+</footer>
 </html>
