@@ -1,0 +1,142 @@
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+        margin-bottom: 5px;
+        position: sticky;
+    }
+
+    .logo img {
+        min-width: 40%;;
+        margin-right: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 10%;
+    }
+
+    nav ul li {
+        width: 10%;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+}
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 15%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+    padding-left: 5%;
+}
+
+.content {
+    flex-grow: 1;
+    margin-right: 10%;
+}
+
+.sidebar {
+    width: 30%;
+    margin: 10px;
+}
+body {
+    background-color: #001f3f;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+div {
+    margin-left: 1em;
+  }
+
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    .content,
+    .sidebar {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .content img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 10px auto; 
+    }
+    header{
+        position: sticky;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    color: #fff;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+}
+#n123{
+    float:right;
+    clear: right;
+    max-width: 35%;
+    width: auto;
+    margin:0.5em 0 1.3em 1.4em
+}
+h1{
+    margin-left: 5%;
+}
+article{
+    margin-top: 3%;
+}
